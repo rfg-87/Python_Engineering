@@ -2,6 +2,10 @@
 
 This is a self-made course combining the basis of Python and Engineering theory. 
 
+You will be developing Python programming skills and learn or refresh engineering theroy. The key point of this self-made course is to combine and apply the programming skills to engineering problems and theory.
+
+In addition, you will generate some script tools in order to reuse them in the future and gain confidence when programming by your own any engineering problem. 
+
 It is intended to take 3 months to finish. But my recommendation is to take your time, do not rush, understand what you are doing and spend the time patiently. If it takes 4 months, is ok. If it takes 6 months it is also ok. This is for you and I and to try to enjoy while doing in order to learn and mix skills: programming and engineering...and it takes time ;)
 
 To do so, the course is split into several steps that we are going to explore through the different folders:
@@ -18,14 +22,14 @@ To do so, the course is split into several steps that we are going to explore th
 
 The "00_admin" is a general folder containing information about an overview of the roadmap.
 
-The "99_sandbox" is a folder where you can put some experimental or trash code that you want to test before putting the final version into the corresponding folder.
+The "99_sandbox" is a folder where you can put some experimental or trash code that you want to test before putting the final version into the corresponding folder. As well as put some of your layouts for the exercices or scripts that you will reuse.
 
 
 ## Current status
 
 - [x] 00_admin
 - [x] 01_python_bootcamp
-- [ ] 02_numerical_methods
+- [ ] 02_numerical_methods - Ongoing
 - [ ] 03_aircraft_dynamics
 - [ ] 04_propulsion
 - [ ] 05_astrodynamics
@@ -132,13 +136,61 @@ And so for the mini projects:
 
 The other .pdf files that you find inside notes are intended to expand and concrete what you are learning in the exercise.
 
+The recommended way to use the .pdf files is to follow their numeration:
+
+- 01_Exercise:
+  - You will find the statement of the exercise. 
+- 02_Reference_Guide
+  - You will find a quick reference to the Python code, functions and new usages used for the exercise.
+- 03_Theory_Guide
+  - You will find a quick summary of the mathematical, physics, engineering and/or relation with Python code of that mathematical/physics principles.
+- 04/05/06..._Step_by_Step_Guide
+  - An intended step by step guide on how to write the code
+
+You will find a lot of documentation until exercise 19 (EX19) but structured as before.
+
+Do not panic, there is a reason, I considered that until that exercise it would be better to deep dive into the concepts. Until that exercise, I recommend to lean on the .py files in "exercises" folder. Try to copy it following the different guides or documents and then try by yourself.
+
+So, the steps until EX19:
+1. Open the .py file already in "exercises" folder.
+2. Open the documentation related to the class or exercise.
+3. Try to understand what we are going to do reading the documentation.
+4. Follow the .py file and documentation steps and guidance.
+5. Write down the .py by yourself following both .py already file in "exercises" and documentation.
+6. Write down the .py file by yourself following only the documentation.
+
+You can skip the steps 4. to 5. when you gain confidence ;)
+
+*Update: The "notes" folder has been split into:*
+
+- *EN folder: for English version of the documents.*
+- *ES folder: for the Spanish version of the documents.*
+
 
 ## Important remark
 
 In the first 3 weeks, please lean on the .py codes that are already in the exercises to replicate them and understand the first steps.
 
-- [ ] Making documentation week_01 - week_03: ongoing
 
+## 01_python_bootcamp
+
+You will start from scratch and start developing some knowledge on the programming language and link it to engineering theory and equations.
+
+
+## 02_numerical_methods
+
+You will develop programming tools to apply them to numerical methods. The section is divided into:
+
+- Algebra.
+- Differentiation.
+- Integration.
+- ODE.
+- Root finding.
+- Statistics.
+
+And it is intended to link the numerical methods seen to engineering disciplines. For example, linking algebra to forces, mechanical resitance, etc. And so for the rest of sub-sections. 
+
+*Note: From this folder on, the "notes" folder is split into each of the exercices as dedicated information about engineering/physic theory is needed.*
 
 ## Python version used
 
